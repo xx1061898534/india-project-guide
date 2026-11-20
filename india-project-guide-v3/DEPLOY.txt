@@ -1,0 +1,11 @@
+印度项目出差指南 V3.0
+
+本地查看：完整解压 ZIP，双击根目录 index.html。勾选进度使用浏览器本地存储。网站图片随包提供，官方链接需要联网。
+
+Cloudflare Pages
+1. 登录 Cloudflare，打开 Workers & Pages，选择创建应用 → Pages → Direct Upload（直接上传）。
+2. 填写项目名，直接上传整个 india-project-guide-v3.zip，再选择部署。ZIP 顶层已放置 index.html，无需解压或构建。
+3. 部署后从项目页面打开分配的 pages.dev 地址。检查首页、图片与两组勾选清单。
+4. 更新既有 Direct Upload Pages 项目时，在项目的 Deployments 页面创建 Production 部署，上传同一 ZIP。若现有项目使用 Git 集成，提交解压后的静态网站文件，由原 Git 流程部署。
+
+官方文档 https://developers.cloudflare.com/pages/get-started/direct-upload/
